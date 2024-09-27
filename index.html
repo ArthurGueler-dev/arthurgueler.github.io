@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio Website</title>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Arthur</a>
+
+        <nav>
+            <a href="#" class="active"> Home</a>
+            <a href="#Habilidades" >Habilidades</a>
+            <a href="#Experiencia" >Experiência</a>
+            <a href="#Contato" >Contato</a>
+        </nav>
+    </header>
+    <section class="home">
+        <div class="home-img">
+            <img src="fotoperfil.jpg" alt="" class="minhafoto">
+        </div>
+        <div class="home-content">
+            <h1>Olá, sou o <span>Arthur</span></h1>
+            <h3 class="texto">Sou um <span></span></h3>
+            <p>Sou um profissional com experiência sólida na área administrativa e um forte interesse por tecnologia e programação. Ao longo da minha carreira, desenvolvi habilidades que me permitem não só gerenciar operações administrativas com eficiência, mas também aplicar soluções tecnológicas que otimizam processos e impulsionam resultados.</p>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/arthur-gueler-423904300/" rel="next" target="_blank" ><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/ArthurGueler-dev" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.instagram.com/igr.arthur/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <a href="https://www.linkedin.com/in/arthur-gueler-423904300/" class="btn">Me contrate</a>
+        </div>
+    </section>
+    <section id="Habilidades">
+        <h2 class="habilidades-titulo">Habilidades</h2>
+        <div class="cards">
+          <div class="card">
+            <div class="icon">
+              <img src="csharp.png" alt="Ícone 1">
+            </div>
+            <h3>Desenvolvedor C#</h3>
+            <p>Atualmente, estou aprimorando minhas habilidades em C#, com foco em programação orientada a objetos e desenvolvimento de aplicações. Tenho uma base sólida e sigo avançando em projetos para consolidar meu conhecimento.</p>
+          </div>
+          <div class="card">
+            <div class="icon">
+              <img src="python.png" alt="Ícone 2">
+            </div>
+            <h3>Desenvolvedor Python</h3>
+            <p>Atualmente, tenho experiência com Python, onde desenvolvi projetos aplicando conceitos de programação orientada a objetos e automação de tarefas. Com uma base sólida na linguagem, continuo aprimorando minhas habilidades e explorando novas áreas para consolidar ainda mais meu conhecimento.</p>
+          </div>
+          <div class="card">
+            <div class="icon">
+              <img src="htmlcss.png" alt="Ícone 3">
+            </div>
+            <h3>Desenvolvedor FrontEnd</h3>
+            <p>Atualmente, tenho experiência com HTML, CSS e JavaScript, onde desenvolvi interfaces responsivas e interativas. Com uma base sólida em desenvolvimento front-end, continuo aprimorando minhas habilidades e explorando novas técnicas para criar experiências de usuário cada vez mais otimizadas e eficientes.</p>
+          </div>
+          <div class="card">
+            <img src="mysql.png" alt="Ícone MySQL" />
+            <h3>Desenvolvedor de Banco de Dados</h3>
+            <p>
+                Atualmente, tenho experiência com MySQL, onde desenvolvi e
+                otimizei consultas e estrutura de dados, garantindo eficiência e
+                integridade nas operações de banco de dados. Continuo
+                aprimorando minhas habilidades em gerenciamento e modelagem de
+                dados.
+            </p>
+        </div>
+        </div>
+      </section>
+      <script src="script.js"></script>
+      <section id="Experiencia">
+            <h2 class="experiencia-h2">Experiência</h2>
+            <p class="experiencia-paragrafo">Atualmente, estou cursando Análise e Desenvolvimento de Sistemas, onde estou aprimorando minhas habilidades e conhecimentos na área de tecnologia. Anteriormente, trabalhei como Assistente Administrativo em uma empresa de engenharia. Nesse cargo, tive a oportunidade de desenvolver habilidades importantes, como organização, gerenciamento de documentos e apoio às equipes técnicas em tarefas essenciais para o bom funcionamento do escritório.
+                Durante minha trajetória, aprendi a importância da comunicação clara, do trabalho em equipe e da eficiência na execução de tarefas administrativas. Continuo expandindo meu aprendizado e aplicando esses conhecimentos nos meus estudos e projetos acadêmicos.</p>
+      </section>
+      <section id="Contato" class="formulario">
+        <h2 class="contate-me">Contate-me</h2>
+        <p>Envie-me um email</p>
+        <form action="https://api.staticforms.xyz/submit" method="post">
+          <label for="">Nome</label>
+          <input type="text" name="name" placeholder="Digite seu nome">
+          <label for="">Email</label>
+          <input type="email" name="email" placeholder="Digite seu email">
+          <label for="">Mensagem</label>
+          <textarea name="message" cols="30" rows="10" placeholder="Digite sua mensagem"></textarea>
+          <button type="submit">Enviar</button>
+          <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/page2/obrigado.html"> <!-- Optional -->
+
+
+          <input type="hidden" name="accessKey" value="a4f52dd9-24b3-4494-aa75-a01ceb9a8fd4"> <!-- Required -->
+        </form>
+      </section>
+      <footer>
+        <p>feito com ❤️ por Arthur</p>
+      </footer>
+
+      <script src="script.js"></script>
+</body>
+</html>
